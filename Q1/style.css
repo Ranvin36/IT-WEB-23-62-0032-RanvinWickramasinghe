@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    margin-top: 30px;
+}
+
+.button2{
+    margin: 0px 5px;
+}
+.button2 a{
+    text-decoration: none;
+    background-color: #525FFB;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.content{
+    height: 70vh;
+}
+
+.services{
+    padding: 80px 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.services-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+
+.services-box{
+    min-width: 210px;
+    background-color: #777;
+    padding: 20px 50px;
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.services h2{
+    font-weight: 700;
+}
+
+.task-management{
+    padding: 80px 70px;
+    display: flex;
+    align-items: center;
+}
+
+.task-image img{
+    width: 450px;
+}
+
+.task-items{
+    margin: 0px 50px;
+    width: 500px;
+}
+
+.texts{
+    margin-bottom: 50px;
+}
+.texts h2{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.task-management .button a{
+    background-color: #525FFB;
+    padding: 15px 35px;
+    border-radius:40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.button img{
+    max-width: 50px;
+}
+
+.service{
+    padding: 50px 20px;
+}
+
+.service-title{
+    text-align: center;
+}
+
+.service-title h3{
+    font-weight: 700;
+}
+
+.service-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.service-item{
+    margin: 10px 20px;
+}
+
+.service-item img{
+    width: 300px;
+}
+
+.img-fluid{
+    width: 500px;
+}
+
+.hero-container{
+    justify-content: center;
+}

@@ -1,0 +1,38 @@
+a) SELECT * FROM Students;
+b) SELECT student_id, name, city
+   FROM Students
+   WHERE city = 'Kandy';
+c) UPDATE Students
+   SET city = 'Galle'
+   WHERE student_id = 4;
+d) SELECT S.*, C.course_name
+   FROM Students S
+   JOIN Enrollments E ON S.student_id = E.student_id
+   JOIN Courses C ON E.course_id = C.course_id;
+
+
+RESULTS
+
+
+A)
+
+1	Kasun Gamage	Kandy	2
+2	Daniel Sams	Jaffna	3
+3	Hansi Silva	Colombo	1
+4	Praneeth Wijesinghe	Kandy	4
+5	Nuwani Herath	Rathapura	1
+
+B)
+1	Kasun Gamage	        Kandy
+4	Praneeth Wijesinghe	Kandy
+
+C) 
+
+1	Kasun Gamage	Kandy	2
+2	Daniel Sams	Jaffna	3
+3	Hansi Silva	Colombo	1
+4	Praneeth Wijesinghe	Galle	4
+5	Nuwani Herath	Rathapura	1
+
+
+D)
